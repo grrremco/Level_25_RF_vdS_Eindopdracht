@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: auto;
+    padding-right:0;
+    align-items: center;
+}
+
+.addTasks {
+    display: flex;
+    justify-content: center;
+}
+
+#addTasks_btn {
+    width: 40px;
+    background: green;
+    color: white;
+    margin-right: 0;
+}
+
+.list {
+    &_items {
+        list-style: none;
+    }
+}
+
+.bin {
+    padding-left: 25px;
+    padding-right: 25px;
+    color: crimson;
+}
+
+.checked {
+    text-decoration: line-through;
+    text-decoration-color: crimson;
+}
